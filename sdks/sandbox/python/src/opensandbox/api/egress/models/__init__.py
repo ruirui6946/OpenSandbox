@@ -39,6 +39,9 @@ from .credential_vault_state import CredentialVaultState
 from .custom_header_entry import CustomHeaderEntry
 from .custom_headers_credential_auth import CustomHeadersCredentialAuth
 from .custom_headers_credential_auth_type import CustomHeadersCredentialAuthType
+from .http_credential_source import HTTPCredentialSource
+from .http_credential_source_headers import HTTPCredentialSourceHeaders
+from .http_credential_source_type import HTTPCredentialSourceType
 from .inline_credential_source import InlineCredentialSource
 from .inline_credential_source_type import InlineCredentialSourceType
 from .network_policy import NetworkPolicy
@@ -71,6 +74,9 @@ __all__ = (
     "CustomHeaderEntry",
     "CustomHeadersCredentialAuth",
     "CustomHeadersCredentialAuthType",
+    "HTTPCredentialSource",
+    "HTTPCredentialSourceHeaders",
+    "HTTPCredentialSourceType",
     "InlineCredentialSource",
     "InlineCredentialSourceType",
     "NetworkPolicy",
