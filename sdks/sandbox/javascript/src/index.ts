@@ -53,6 +53,8 @@ export type {
   Endpoint,
   Host,
   InlineCredentialSource,
+  HTTPCredentialSource,
+  CredentialSource,
   ListSnapshotsParams,
   ListSnapshotsResponse,
   ListSandboxesParams,
